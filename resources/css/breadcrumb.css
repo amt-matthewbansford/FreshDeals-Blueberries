@@ -1,0 +1,30 @@
+.breadcrumb > li {
+    display: inline;
+  }
+  
+  .breadcrumb li+li::before {
+    content: ">";
+  }
+  
+  .breadcrumb a:hover {
+    color: blue;
+  }
+  
+  .breadcrumb li.attribute::before {
+    content: "";
+  }
+  
+  .breadcrumb li.attribute a {
+    color: red;
+  }
+  
+  .breadcrumb li.attribute::after {
+    color: blue;
+    font-size: 5px;
+  }
+  
+  li {
+    background-color: green;
+    border-color: green;
+    border-width: 10px;
+  }
